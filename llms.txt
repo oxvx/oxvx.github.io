@@ -1,0 +1,73 @@
+# 404 Not Found
+
+> Privacy-first browser utilities. No ads, no trackers, no servers —
+> everything runs locally in your browser.
+
+## About
+
+404 Not Found is a collection of small, focused web utilities for everyday tasks:
+image conversion, file format transformation, text comparison, code
+formatting, and more. All processing happens entirely in your browser using
+JavaScript — your data never leaves your device.
+
+Hosted at oxvx.github.io on GitHub Pages.
+
+## Differentiators
+
+- No ads, no trackers
+- All processing happens client-side (your data stays in your browser)
+- Instant results, no server roundtrip
+- No cookie banners, no login walls, no newsletter popups
+
+## Tools
+
+Planned catalog spans 7 categories and 22 tools (all currently planned, none
+yet shipped). Tools follow a hybrid bundling model: related operations are
+grouped into deep "workbench" or "studio" tools, while single-purpose tools
+stay standalone.
+
+### Image
+- Image studio — compress, convert (PNG/JPG/WebP/AVIF), resize, crop, EXIF view, base64 output
+- EXIF strip — view and remove EXIF metadata in bulk
+- Favicon generator — one image to multi-size favicons + apple-touch-icon + manifest
+- SVG optimizer — SVGO-based minification
+
+### File
+- PDF studio — merge, split, compress, image↔PDF, page reorder, password set/remove
+
+### Text
+- Text workbench — case convert, slugify, sort/dedupe, escape, count, normalize, Lorem Ipsum, bulk regex replace
+- Diff — side-by-side text and JSON diff with word-level highlights
+- Regex tester — pattern, flags, replace, highlighted matches, cheatsheet
+- Markdown studio — Markdown↔HTML, live preview, TOC, GFM
+
+### Code
+- Format workbench — JSON, SQL, HTML, CSS, JS, TS, XML, YAML, TOML with auto-detection
+- JSON viewer — tree view with JSONPath query and search
+- Data convert — JSON↔YAML/TOML/XML/CSV, JSON→TypeScript/Zod/JSON Schema
+
+### Convert
+- Number converter — integer base, units (length/weight/temperature/area/volume), roman numeral
+- Color converter — HEX/RGB/HSL/HSV/OKLCH, picker, contrast checker, palette
+- Timestamp converter — Unix/ISO/human, timezones, relative time
+- Cron expression — parse, natural-language builder, next-run preview
+
+### Encode
+- Encode workbench — base64 (string + file), URL, HTML entity, text↔binary/hex/unicode
+- JWT decoder — header, payload, signature verify
+- Hash & HMAC — MD5/SHA-1/SHA-256/SHA-512/SHA-3, HMAC, bcrypt, file hash
+
+### Generate
+- ID generator — UUID (v1/v4/v7), ULID, nanoid, bulk
+- Password generator — adjustable length, strength meter, memorable/diceware mode, bulk
+- QR code — text/URL/WiFi/vCard, color and logo options, bulk
+
+## Stack
+
+Built with Astro, Tailwind CSS v4, and daisyUI. Source code is private; built
+artifacts are deployed to the public hosting repository at
+oxvx/oxvx.github.io.
+
+## Contact
+
+Maintained by oxvx (https://github.com/oxvx).
