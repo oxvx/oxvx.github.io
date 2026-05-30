@@ -1,72 +1,28 @@
 # 404 Not Found
 
-> Privacy-first browser utilities. No ads, no trackers, no servers —
-> everything runs locally in your browser.
+> Ad-free, server-less browser utilities. Everything runs in your browser — no ads, no servers, no sign-up.
 
 ## About
 
-404 Not Found is a collection of small, focused web utilities for everyday tasks:
-image conversion, file format transformation, text comparison, code
-formatting, and more. All processing happens entirely in your browser using
-JavaScript — your data never leaves your device.
+404 Not Found is a collection of small, focused web utilities. Every tool runs
+entirely client-side in your browser using JavaScript — your data is never
+uploaded and never leaves your device. No ads, no sign-up, no noise.
 
 Hosted at oxvx.github.io on GitHub Pages.
 
-## Differentiators
+## The point
 
-- No ads, no trackers
-- All processing happens client-side (your data stays in your browser)
-- Instant results, no server roundtrip
-- No cookie banners, no login walls, no newsletter popups
+- No ads — no banners, cookie consent walls, or newsletter pop-ups
+- No servers — all processing happens in the browser, so results are instant
+- No noise — no login, no sign-up; open a tool and use it
 
 ## Tools
 
-Planned catalog spans 7 categories and 22 tools (all currently planned, none
-yet shipped). Tools follow a hybrid bundling model: related operations are
-grouped into deep "workbench" or "studio" tools, while single-purpose tools
-stay standalone.
+- [QR code](https://oxvx.github.io/qr-code): Generate QR codes for URLs, text, email, phone, SMS, WiFi, contacts (vCard), location, events, and app links. Custom colors, gradients, dot shapes, and a center logo. Export as PNG, SVG, JPEG, or WebP.
+- [Image redact](https://oxvx.github.io/image-redact): Hide parts of an image by drawing regions and applying blur, pixelate, or a solid black box. Drag to move, resize by corner handles, with per-region effects. Exported images have their EXIF/GPS metadata removed. Export as PNG.
 
-### Image
-- Image studio — compress, convert (PNG/JPG/WebP/AVIF), resize, crop, EXIF view, base64 output
-- EXIF strip — view and remove EXIF metadata in bulk
-- Favicon generator — one image to multi-size favicons + apple-touch-icon + manifest
-- SVG optimizer — SVGO-based minification
-
-### File
-- PDF studio — merge, split, compress, image↔PDF, page reorder, password set/remove
-
-### Text
-- Text workbench — case convert, slugify, sort/dedupe, escape, count, normalize, Lorem Ipsum, bulk regex replace
-- Diff — side-by-side text and JSON diff with word-level highlights
-- Regex tester — pattern, flags, replace, highlighted matches, cheatsheet
-- Markdown studio — Markdown↔HTML, live preview, TOC, GFM
-
-### Code
-- Format workbench — JSON, SQL, HTML, CSS, JS, TS, XML, YAML, TOML with auto-detection
-- JSON viewer — tree view with JSONPath query and search
-- Data convert — JSON↔YAML/TOML/XML/CSV, JSON→TypeScript/Zod/JSON Schema
-
-### Convert
-- Number converter — integer base, units (length/weight/temperature/area/volume), roman numeral
-- Color converter — HEX/RGB/HSL/HSV/OKLCH, picker, contrast checker, palette
-- Timestamp converter — Unix/ISO/human, timezones, relative time
-- Cron expression — parse, natural-language builder, next-run preview
-
-### Encode
-- Encode workbench — base64 (string + file), URL, HTML entity, text↔binary/hex/unicode
-- JWT decoder — header, payload, signature verify
-- Hash & HMAC — MD5/SHA-1/SHA-256/SHA-512/SHA-3, HMAC, bcrypt, file hash
-
-### Generate
-- ID generator — UUID (v1/v4/v7), ULID, nanoid, bulk
-- Password generator — adjustable length, strength meter, memorable/diceware mode, bulk
-- QR code — text/URL/WiFi/vCard, color and logo options, bulk
-
-## Stack
-
-Built with Astro, Tailwind CSS v4, and daisyUI. Source code is private; built
-artifacts are deployed to the public hosting repository at
-oxvx/oxvx.github.io.
+More tools are in progress across image, file, text, code, convert, encode, and
+generate categories.
 
 ## Contact
 
