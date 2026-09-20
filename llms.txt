@@ -1,28 +1,31 @@
 # 404 Not Found
 
-> Ad-free, server-less browser utilities. Everything runs in your browser — no ads, no servers, no sign-up.
+> Nothing but developer tools. Small tools for everyday development work, running in your browser.
 
 ## About
 
-404 Not Found is a collection of small, focused web utilities. Every tool runs
-entirely client-side in your browser using JavaScript — your data is never
-uploaded and never leaves your device. No ads, no sign-up, no noise.
+404 Not Found is a collection of tools for everyday development work —
+generating a QR code, redacting a screenshot, building a favicon set, making a
+social share image. Each one is a single page, with nothing to set up.
 
-Hosted at oxvx.github.io on GitHub Pages.
+At https://oxvx.github.io.
 
 ## The point
 
 - No ads — no banners, cookie consent walls, or newsletter pop-ups
-- No servers — all processing happens in the browser, so results are instant
-- No noise — no login, no sign-up; open a tool and use it
+- No signup — no account, nothing to install; open a tool and use it
+- No uploads — every tool runs in your browser; your input is never uploaded
+- No limits — no daily cap, no paid tier, no file-count gate
 
 ## Tools
 
-- [QR code](https://oxvx.github.io/qr-code): Generate QR codes for URLs, text, email, phone, SMS, WiFi, contacts (vCard), location, events, and app links. Custom colors, gradients, dot shapes, and a center logo. Export as PNG, SVG, JPEG, or WebP.
-- [Image redact](https://oxvx.github.io/image-redact): Hide parts of an image by drawing regions and applying blur, pixelate, or a solid black box. Drag to move, resize by corner handles, with per-region effects. Exported images have their EXIF/GPS metadata removed. Export as PNG.
+- [QR code](https://oxvx.github.io/qr-code): Generate QR codes for URLs, text, email, phone, SMS, WiFi, contacts (vCard), location, events, and app links. Colors, gradients, dot and corner shapes, and a center logo. Export as PNG, SVG, JPEG, or WebP.
+- [Screenshot](https://oxvx.github.io/screenshot): Hide parts of a screenshot. Drag to mark regions, then blur, pixelate, or black them out, with per-region effects and adjustable strength. Exported images have their EXIF/GPS metadata removed. Export as PNG.
+- [Favicon](https://oxvx.github.io/favicon): Turn text, an emoji, or an image into a complete favicon set — a multi-size .ico, eight PNG sizes from 16 to 512 including the apple-touch-icon, and the HTML head snippet, individually or as one zip. Pick the shape, background, border, and typeface from Google Fonts. Text can run to two lines, each with its own color, over one background or two split bands.
+- [OG image](https://oxvx.github.io/og-image): Build the 1200x630 card a shared link shows. A title and a subtitle wrap to fit on their own and keep any line breaks you type, in any Google Fonts typeface, aligned left, center, or right. Add a photo to fill the card behind the text, or a logo placed above or beside it. Solid or gradient background. Export as PNG or JPEG, and copy the Open Graph and Twitter meta tags to paste.
 
-More tools are in progress across image, file, text, code, convert, encode, and
-generate categories.
+More tools are in progress — images, colors, timestamps, data formats,
+encoding, text transforms, and random strings.
 
 ## Contact
 
