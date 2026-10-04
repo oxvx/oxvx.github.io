@@ -20,9 +20,10 @@ At https://oxvx.github.io.
 ## Tools
 
 - [QR code](https://oxvx.github.io/qr-code): Generate QR codes for URLs, text, email, phone, SMS, WiFi, contacts (vCard), location, events, and app links. Colors, gradients, dot and corner shapes, and a center logo. Export as PNG, SVG, JPEG, or WebP.
-- [Screenshot](https://oxvx.github.io/screenshot): Hide parts of a screenshot. Drag to mark regions, then blur, pixelate, or black them out, with per-region effects and adjustable strength. Exported images have their EXIF/GPS metadata removed. Export as PNG.
+- [Image markup](https://oxvx.github.io/image-markup): Hide parts of a screenshot or any image. Drag to mark regions, then blur, pixelate, or black them out, with per-region effects and adjustable strength. Exported images have their EXIF/GPS metadata removed. Export as PNG.
 - [Favicon](https://oxvx.github.io/favicon): Turn text, an emoji, or an image into a complete favicon set — a multi-size .ico, eight PNG sizes from 16 to 512 including the apple-touch-icon, and the HTML head snippet, individually or as one zip. Pick the shape, background, border, and typeface from Google Fonts. Text can run to two lines, each with its own color, over one background or two split bands.
 - [OG image](https://oxvx.github.io/og-image): Build the 1200x630 card a shared link shows. A title and a subtitle wrap to fit on their own and keep any line breaks you type, in any Google Fonts typeface, aligned left, center, or right. Add a photo to fill the card behind the text, or a logo placed above or beside it. Solid or gradient background. Export as PNG or JPEG, and copy the Open Graph and Twitter meta tags to paste.
+- [My IP](https://oxvx.github.io/my-ip): See your public IPv4 and IPv6 addresses and copy them as they are or as /32 and /128 blocks for a firewall or database allow list. The browser finds them by asking Cloudflare's STUN server, with Google's as a fallback; no IP lookup API is called.
 
 More tools are in progress — images, colors, timestamps, data formats,
 encoding, text transforms, and random strings.
